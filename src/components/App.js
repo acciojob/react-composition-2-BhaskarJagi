@@ -12,8 +12,8 @@ const App = () => {
   }
 
   const showModal = {
-    container: <div className="modal-overlay">
-                  <button className="modal-close" onClick={() => onClose()}>Close</button>
+    container: <div className="model-overlay">
+                  <button className="model-close" onClick={() => onClose()}>Close</button>
                   <p className="model-p">This is the content of the modal.</p>
               </div>
   }
